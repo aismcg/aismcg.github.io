@@ -1,0 +1,240 @@
+body {
+    background-image: url('../img/homebackground.png');
+    background-size: 100%,100%;
+}
+
+h1 {
+    color: antiquewhite;
+    text-align: center;
+    margin: 60px;
+    font-family: 'Lato';
+}
+
+a {
+    color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+    text-decoration: none;
+    text-align: center;
+    margin-bottom: 10px;
+    font-family: 'Lato';
+    opacity: 80%
+}
+
+a:hover {
+    opacity: 100%;
+    font-size: 32px;
+}
+
+.star1 {
+    width: 0.1px;
+    height: 0.1px;
+    position: absolute;
+    right: 30px;
+    top: 30px;
+    background-color: white;
+    box-shadow: 0px 0px 5px 3px white;
+    animation: fadeIn 5s infinite;
+    transform: rotate(45deg);
+ }
+
+ .star2 {
+    width: 0.1px;
+    height: 0.1px;
+    position: absolute;
+   top: 50px;
+    left: 50px;
+    box-sizing: border-box;
+    background-color: white;
+    box-shadow: 0px 0px 5px 2px white;
+    animation: fadeIn 4s infinite;
+    transform: rotate(45deg);
+ }
+
+ .star3 {
+    width: 0.1px;
+    height: 0.1px;
+    position: absolute;
+    top: 400px;
+    left: 200px;
+    background-color: white;
+    box-shadow: 0px 0px 5px 4px white;
+    animation: fadeIn 3s infinite;
+    transform: rotate(45deg);
+ }
+ .star4 {
+    width: 0.1px;
+    height: 0.1px;
+    position: absolute;
+    top: 250px;
+    right: 250px;
+    background-color: white;
+    box-shadow: 0px 0px 5px 3px white;
+    animation: fadeIn 4s infinite;
+    transform: rotate(45deg);
+ }
+ .star5 {
+    width: 0.1px;
+    height: 0.1px;
+    position: absolute;
+    bottom: 70px;
+    right: 150px;
+    background-color: white;
+    box-shadow: 0px 0px 5px 2px white;
+    animation: fadeIn 5s infinite;
+    transform: rotate(45deg);
+ }
+ .star6 {
+    width: 0.1px;
+    height: 0.1px;
+    position: absolute;
+    top: 200px;
+    left: 340px;
+    background-color: white;
+    box-shadow: 0px 0px 5px 4px white;
+    animation: fadeIn 4s infinite;
+    transform: rotate(45deg);
+ }
+ .star7 {
+    width: 0.1px;
+    height: 0.1px;
+    position: absolute;
+    top: 670px;
+    left: 410px;
+    background-color: white;
+    box-shadow: 0px 0px 5px 2px white;
+    animation: fadeIn 2s infinite;
+    transform: rotate(45deg);
+ }
+ .star8 {
+    width: 0.1px;
+    height: 0.1px;
+    position: absolute;
+    bottom: 10px;
+    left: 70px;
+    background-color: white;
+    box-shadow: 0px 0px 5px 3px white;
+    animation: fadeIn 3s infinite;
+    transform: rotate(45deg);
+ }
+
+ .star12 {
+   width: 0.1px;
+   height: 0.1px;
+   position: absolute;
+   top: 30px;
+   left: 500px;
+   background-color: white;
+   box-shadow: 0px 0px 5px 3px white;
+   animation: fadeIn 3s infinite;
+   transform: rotate(45deg);
+}
+.star13 {
+   width: 0.1px;
+   height: 0.1px;
+   position: absolute;
+   top: 110px;
+   right: 600px;
+   background-color: white;
+   box-shadow: 0px 0px 5px 4px white;
+   animation: fadeIn 6s infinite;
+   transform: rotate(45deg);
+}
+.star14 {
+   width: 0.1px;
+   height: 0.1px;
+   position: absolute;
+   bottom: 200px;
+   right: 400px;
+   background-color: white;
+   box-shadow: 0px 0px 5px 3px white;
+   animation: fadeIn 2s infinite;
+   transform: rotate(45deg);
+}
+.star15 {
+   width: 0.1px;
+   height: 0.1px;
+   position: absolute;
+   top: 400px;
+   right: 90px;
+   background-color: white;
+   box-shadow: 0px 0px 5px 5px white;
+   animation: fadeIn 3s infinite;
+   transform: rotate(45deg);
+}
+
+
+
+ .star9 {
+    width: 0.1px;
+    height: 0.1px;
+    position: absolute;
+    top: 10px;
+    right: 410px;
+    background-color: white;
+    box-shadow: 0px 0px 5px 4px white;
+    animation: delay 6s ease 4s infinite, shootingStar 6s ease 4s infinite;
+    transform: rotate(45deg);
+ }
+
+ .star10 {
+    width: 0.1px;
+    height: 0.1px;
+    position: absolute;
+    top: 10px;
+    right: 410px;
+    background-color: white;
+    box-shadow: 0px 0px 5px 3px white;
+    animation: delay 8s ease 7s infinite, shootingStar2 8s ease 7s infinite;
+    transform: rotate(45deg);
+ }
+
+ .star11 {
+    width: 0.1px;
+    height: 0.1px;
+    position: absolute;
+    top: 10px;
+    right: 410px;
+    background-color: white;
+    box-shadow: 0px 0px 5px 3px white;
+    animation: delay 5s ease 2s infinite, shootingStar3 5s ease 2s infinite;
+    transform: rotate(45deg);
+ }
+
+
+ 
+
+ @keyframes fadeIn {
+     0% { opacity: 0; }
+     50% { opacity: 1; }
+     100% { opacity: 0; }
+ }
+
+ @keyframes shootingStar {
+    0% { top: 0px; right: 40px }
+    20% { top: 400px; right: 400px}
+    100% { top: 400px; right: 400px}
+
+}
+
+@keyframes shootingStar2 {
+    0% { top: 30px; left: 40px }
+    20% { top: 500px; left: 400px}
+    100% { top: 500px; left: 400px}
+
+}
+
+@keyframes shootingStar3 {
+    0% { top: 10px; left: 500px }
+    20% { top: 70px; left: 900px}
+    100% { top: 70px; left: 900px}
+
+}
+
+@keyframes delay {
+    0% { opacity: 1; }
+    10% {opacity: 1;}
+    20% {opacity: 0;}
+    100% { opacity: 0; }
+}
